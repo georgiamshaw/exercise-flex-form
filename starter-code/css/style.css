@@ -1,3 +1,19 @@
 body {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 300px;
+  width: 100px; */
+  margin: 50px 20px 20px 20px;
+  /* margin-top: 50px; */
+  border: 1px solid black;
 }
